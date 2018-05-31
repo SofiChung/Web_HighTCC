@@ -1,0 +1,102 @@
+@font-face{
+	font-family:"Nanum Gothic";
+	src:url('/fonts/NanumGothic.eot');
+	src:url('/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/NanumGothic.woff') format('woff'),
+	url('/fonts/NanumGothic.ttf') format('truetype');
+	url('/fonts/NanumGothic.svg#NanumGothic') format('svg')
+	src:local(※), url('/fonts/NanumGothic.woff') format('woff');
+}
+
+body{
+	margin:0px;
+	background-color:#EFFFFF;
+}
+
+header > div {
+	max-width:1024px;
+	margin:0 auto;
+}
+
+
+
+
+header {
+	background-color:white;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:3px solid #B2EBF4;
+	height:150px;
+	background-color:white;
+}
+
+
+header img {
+	width:auto;
+	height:150px;
+	float:left;
+
+}
+
+.searchbar {
+	padding-top:60px;
+	padding-bottom:20px;
+	float:right;
+
+}
+
+.searchbar form input {
+	background:#E6E6E6;
+	padding:15px;
+	width:300px;
+	border-radius:50px;
+	border:1px hidden #838383;
+}
+
+.searchbar form button {
+	padding-top:10px;
+	padding-bottom:10px;
+	background:none;
+	border:none;
+}
+
+footer {
+	padding-top:50px;
+	text-align:center;
+	color:#B8B8B8;
+	font-size:8pt;
+	padding-bottom:50px;
+	background-color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+	
+	padding:0px;
+	width:100%;
+	margin:0px auto;
+	overflow:hidden;
+}

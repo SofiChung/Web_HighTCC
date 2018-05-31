@@ -1,0 +1,68 @@
+section {
+	min-height:1300px;
+}
+
+section > *:nth-child(2) {
+	margin-top:30px;
+}
+
+.m1 > ul {
+	width:100%;
+}
+
+.map {
+	width:45%;
+	border-right:1px solid #ECECEC;
+	float:left;
+	margin-right:15px;
+}
+
+.map > * {
+	margin:0 auto;
+}
+
+.explain {
+	width:48%;
+	display:block;
+	overflow:hidden;
+	height:500px;
+	font-size:10pt;
+
+}
+
+.explain > p {
+	margin-top:5px;
+}
+
+.solution {
+	margin:20px;
+}
+
+.improvement {
+	float:left;
+	text-align:center;
+	width:350px;
+	
+}
+
+.improvement > img {
+	width:300px;
+	height:auto;
+}
+
+
+
+
+/*x탭으로 따로 분류하고 싶은데 어떻게 할것인지  ,,,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ*/
+
+#content {
+	padding:15px;
+}	
+
+.analysis {
+	float: left;
+	margin-top:50px;
+	padding:20px;
+	width:350px;
+}
+

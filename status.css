@@ -1,0 +1,37 @@
+
+.sCause, .sDay, .sTime {
+	width:100%;
+	height:auto;	
+}
+
+section > div {
+	overflow:hidden;
+}
+
+
+.sCause > h1, .sDay > h1, .sTime > h1 {
+	padding:20px;
+	text-align:left;
+	font-size:14pt;
+	margin:0px;
+
+}
+
+section > div > div > *[id] {
+	float:left;
+	border-right:1px solid #ECECEC;
+	margin-right:30px;
+	display:inline;
+	width:400px;
+}
+
+section > div > p {
+	display:inline;
+	width:330px;
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+	word-break:keep-all;
+	font-size:10pt;
+/*color:#ACACAC;*/
+}

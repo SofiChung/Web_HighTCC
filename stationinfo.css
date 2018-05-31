@@ -1,0 +1,13 @@
+
+.info {
+	margin:0px;
+	height:500px;
+	margin-top:20px;
+}
+
+.info img{
+	display:block;
+	margin:0 auto;
+	width:100%;
+}
+

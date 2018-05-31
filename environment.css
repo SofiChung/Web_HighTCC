@@ -1,0 +1,82 @@
+
+
+.basicElement {
+   width:435px;
+   float:left;
+   margin-top:20px;
+   height:auto;
+   
+   
+}
+
+.basicElement > svg {
+	float:left;
+}
+
+.basicElement h1 {
+   text-align:left;
+   padding:10px 10px;
+}
+
+.explain {
+	width:350px;
+	display:inline;
+	float:right;
+	
+	margin-top:100px;
+}
+
+.explain > p {
+	margin-bottom:10px;
+	font-size:10pt;
+}
+
+.detailElement {
+	padding-top:50px;
+   width:790px;
+   height:auto;
+   min-height:480px;
+   float:center;
+   overflow:hidden;
+
+}
+
+.detailElement > svg {
+	margin:0 auto;
+	
+}
+
+
+
+.detailElement > h1, .basicElement > h1 {
+   padding-left:10px;
+   text-align:left;
+}
+
+
+.detailElement > p, .basicElement > p {
+   padding:10px;
+   position:relative;
+   left:25%;
+   margin-top:5px;
+   font-size:9pt;
+   color:#838383;
+   
+}
+
+section > div > h3 {
+   padding:20px;
+   text-align:center;
+}
+
+section > div > * {
+   margin:0 auto;
+   
+}
+
+
+
+
+
+
+

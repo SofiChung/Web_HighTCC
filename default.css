@@ -1,0 +1,177 @@
+@font-face{
+	font-family:"Nanum Gothic";
+	src:url('/fonts/NanumGothic.eot');
+	src:url('/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/NanumGothic.woff') format('woff'),
+	url('/fonts/NanumGothic.ttf') format('truetype');
+	url('/fonts/NanumGothic.svg#NanumGothic') format('svg')
+	src:local(※), url('/fonts/NanumGothic.woff') format('woff');
+}
+
+.red {
+	color:red;
+}
+
+.green {
+	color:#3AFB67;
+}
+
+.bold {
+	font-weight:bold;
+
+}
+
+body{
+	margin:0px;
+	background-color:#EFFFFF;
+}
+
+.maintext, header > div {
+	max-width:1024px;
+	margin:0 auto;
+}
+
+
+
+
+header {
+	background-color:white;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:3px solid #B2EBF4;
+	height:150px;
+	background-color:white;
+}
+
+
+header img {
+	width:auto;
+	height:150px;
+	float:left;
+
+}
+
+.searchbar {
+	padding-top:60px;
+	padding-bottom:20px;
+	float:right;
+
+}
+
+.searchbar form input {
+	background:#E6E6E6;
+	padding:15px;
+	width:300px;
+	border-radius:50px;
+	border:1px hidden #838383;
+}
+
+.searchbar form button {
+	padding-top:10px;
+	padding-bottom:10px;
+	background:none;
+	border:none;
+}
+
+.maintext {
+	padding-top:30px;
+	padding-bottom:30px;
+	height:auto;
+	overflow:hidden;
+	background-color:#EFFFFF;
+
+}
+
+.maintext > * {
+	display:inline;
+
+}
+
+aside {
+	float:left;
+
+	width:150px;
+}
+
+aside h1 {
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+aside ul {
+	list-style:none;
+	padding:0px;
+	
+}
+
+aside li {
+	margin-bottom:5px;
+	background-color:#92E8CC;
+	padding:3px;
+}
+
+aside li a {
+	padding:0px 0px 0px 5px;
+}
+
+aside li:hover {
+	color:black;
+	background-color:#E4E4E4;
+}
+
+aside h1 a:link, aside h1 a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+aside ul a:link,aside ul a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+section {
+	background-color:white;
+	float:right;
+	width:790px;
+	padding:30px;
+}
+
+
+.headline {
+	border-bottom:1px solid #ECECEC;
+	padding-bottom:10px;
+}
+
+.headline > * {
+	display:inline;
+}
+
+.headline > h1 {
+	font-size:20pt;
+}
+
+.nav > p {
+	color:#ACACAC;
+	font-size:8pt;
+	margin:0px;
+	float:right;
+	padding-top:20px;
+}
+
+
+footer {
+	padding-top:50px;
+	text-align:center;
+	color:#B8B8B8;
+	font-size:8pt;
+	padding-bottom:50px;
+	background-color:white;
+
+}
+
+
+
+
